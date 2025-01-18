@@ -1,0 +1,22 @@
+{
+  "name": "pdf-downloader",
+  "version": "1.0.0",
+  "description": "Downloads PDFs from URLs in a CSV file with cookie consent and sign-in handling",
+  "main": "pdf_downloader.js",
+  "scripts": {
+    "start": "node pdf_downloader.js"
+  },
+  "keywords": [
+    "pdf",
+    "downloader",
+    "puppeteer",
+    "automation",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.7.0",
+    "csv-parser": "^3.0.0"
+  }
+}
